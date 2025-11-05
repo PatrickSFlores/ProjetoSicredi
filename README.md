@@ -22,27 +22,29 @@ Pipeline de ETL para processar extratos `.PRN` do Sicredi, gerar datasets limpos
 
 ## 🧱 Arquitetura & Pastas
 
+```bash
 .
 ├─ docker-compose.yml
-├─ .env # variáveis de ambiente (NÃO versionar)
+├─ .env                   # variáveis de ambiente (NÃO versionar)
 ├─ .gitignore
 ├─ backend/
-│ ├─ Dockerfile
-│ └─ app/
-│ ├─ main.py
-│ ├─ db.py, models.py, schemas.py, utils.py
-│ └─ etl.py
+│  ├─ Dockerfile
+│  └─ app/
+│     ├─ main.py
+│     ├─ db.py, models.py, schemas.py, utils.py
+│     └─ etl.py
 ├─ codigos/
-│ ├─ 01_carga_bruta.py
-│ ├─ 02_limpeza_dados.py
-│ ├─ 03_processamento.py
-│ └─ 04_metricas.py
+│  ├─ 01_carga_bruta.py
+│  ├─ 02_limpeza_dados.py
+│  ├─ 03_processamento.py
+│  └─ 04_metricas.py
 └─ dados/
-├─ brutos/ # coloque aqui seus .PRN
-├─ intermediarios/
-├─ limpos/
-├─ processados/
-└─ resultados/
+   ├─ brutos/              # coloque aqui seus .PRN
+   ├─ intermediarios/
+   ├─ limpos/
+   ├─ processados/
+   └─ resultados/
+```
 
 ---
 
