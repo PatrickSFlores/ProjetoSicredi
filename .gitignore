@@ -1,15 +1,12 @@
-# Python
+﻿# Ambientes virtuais
+.venv/
+venv/
+
+# Arquivos temporários e cache
 __pycache__/
 *.pyc
+*.pyo
 
-# VSCode/IDE
-.vscode/
-.idea/
-
-# Dados e resultados (NÃO subir para o Git)
+# Dados locais, credenciais
 dados/
-!dados/.gitkeep
-
-# Docker
-pgdata/
-*.log
+.env
