@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# VSCode/IDE
+.vscode/
+.idea/
+
+# Dados e resultados (NÃO subir para o Git)
+dados/
+!dados/.gitkeep
+
+# Docker
+pgdata/
+*.log
